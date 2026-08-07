@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class digitextraction {
+public static void main (String[]args){
+Scanner sc=new Scanner(System.in);
+System.out.print("ENTER A NUMBER:");
+int num=sc.nextInt();
+System.out.println("HUNDREDS:"+(num/100));
+
+System.out.println("TENS:"+((num%100)/10));
+System.out.println("ONES:"+(num%10));
+}
