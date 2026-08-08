@@ -1,4 +1,5 @@
 
+package  week2;
 import java.util.Scanner;
 public class leapyear{
     public static void main(String[] args){
@@ -16,3 +17,4 @@ public class leapyear{
  System.out.println ("Leap Year:"+leap);
 }
 }
+
