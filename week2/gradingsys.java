@@ -13,12 +13,16 @@ public static void main (String[] args){
         {
         System.out.println("MERIT");
     }
-    else if(marks>=50 && marks<=69){
+    else if(marks>=50 && marks<=69)
+        {
         System.out.println("PASS");
-    }else  if(marks>=0 && marks<=49){
+        }
+    else  if(marks>=0 && marks<=49)
+        {
         System.out.println("FAIL");
     }
-    else{
+    else
+        {
         System.out.println("INVALID");
     }
     }
