@@ -82,8 +82,6 @@ public class StringFundamentals {
         System.out.println("Occurrences of 'a': "+ countOccurrences("Java Programming", 'a'));
         System.out.println("Occurrences in empty string: "+ countOccurrences("", 'a'));
         System.out.println("Occurrences in null: "+ countOccurrences(null, 'a'));
-
-       
         System.out.println("Last word length: "+ lengthOfLastWord("Hello World"));
         System.out.println("Trailing spaces: "+ lengthOfLastWord("Hello World   "));
         System.out.println("One character: "+ lengthOfLastWord("A"));
