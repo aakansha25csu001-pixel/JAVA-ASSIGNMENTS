@@ -1,5 +1,5 @@
 package week4;
-public class StudentRecord {
+public class StudentRecord{
     static class Student{
     private String name;
     private String studentId;
